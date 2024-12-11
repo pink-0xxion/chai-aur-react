@@ -1,0 +1,13 @@
+npm -> node package manager
+npx -> node package executer
+
+> npx create-react-app 01basicreact
+	create-react-app <--utility software
+> npm run start
+ OR
+> npm start
+
+> npm install web-vitals
+---
+> npm create vite@latest
+> npm install
