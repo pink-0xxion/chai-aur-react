@@ -14,8 +14,19 @@ function App() {
     if (counter === 20) return;
    
     counter = counter + 1;
-    setCounter(counter);  //work on let
+    // setCounter(counter);  //work on let
+    // setCounter(counter); //fibre update in batch
+    // setCounter(counter);
+    // setCounter(counter);
+    // setCounter(counter);
 
+    setCounter((prevCounter) => prevCounter + 1); //runs one by one
+    // setCounter((counter) => counter + 1); //prevCounter can be of any name
+    setCounter((prevCounter) => prevCounter + 1);
+    setCounter((prevCounter) => prevCounter + 1);
+    setCounter((prevCounter) => prevCounter + 1);
+
+    
     // setCounter(counter + 1); //can change value of let/const both
   };
 

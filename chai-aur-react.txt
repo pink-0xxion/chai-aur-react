@@ -7,7 +7,31 @@ npx -> node package executer
  OR
 > npm start
 
+https://v3.vitejs.dev/guide/
 > npm install web-vitals
 ---
 > npm create vite@latest
 > npm install
+> npm run dev
+
+----
+createRoot: create virtualDOM
+fibre: update virtualDOM
+reconciliation: which thing to update
+----
+
+
+virtual-DOM, firbre, reconciliation
+	https://github.com/acdlite/react-fiber-architecture
+
+installing tailwind for vite
+	https://tailwindcss.com/docs/guides/vite
+
+for images
+	https://www.pexels.com/
+
+for components
+	https://www.devui.in/components/card	
+
+design structure
+	https://www.eraser.io/
